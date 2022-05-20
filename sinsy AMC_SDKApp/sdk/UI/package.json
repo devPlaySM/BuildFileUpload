@@ -1,0 +1,15 @@
+{
+    "name": "kore-ai-sdk-minify",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "axios": "^0.26.1",
+        "grunt": "^0.4.5",
+        "grunt-contrib-clean": "^2.0.0",
+        "grunt-contrib-concat": "^1.0.1",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-cssmin": "^3.0.0",
+        "grunt-contrib-uglify": "^5.0.0"
+    },
+    "proxy":"http://1.209.229.71:24011"
+}
