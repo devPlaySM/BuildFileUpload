@@ -2,11 +2,11 @@ FROM node:latest
 
 COPY package.json /src/package.json
 
-RUN cd /src; npm install
+RUN cd /src; npm install -g npm@8.10.0
 
 COPY . /src
 
-EXPOSE 3000
+EXPOSE 4000
 
 WORKDIR /src
 

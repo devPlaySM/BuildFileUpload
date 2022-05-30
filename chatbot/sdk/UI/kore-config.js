@@ -23,7 +23,7 @@
 
     var identity = Math.random() + dateTime;
 
-    botOptions.JWTUrl = "http://localhost:4000/api/users/sts";
+    botOptions.JWTUrl = "http://129.154.210.101:4000/api/users/sts";
     botOptions.userIdentity = identity;// Provide users email id here
     botOptions.botInfo = {name: "DevPlay AI 비서", "_id": "st-c8365922-1745-5589-876d-802eec3ea60c"}; // bot name is case sensitive
     botOptions.clientId = "cs-0602f399-c3b1-5f1f-934e-2569189fd52b";
